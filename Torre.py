@@ -15,7 +15,7 @@ class Torre:
         return self._itens.pop(0)
 
     def first(self):
-        return self._itens[len(self._itens) - 1]
+        return self._itens[len(self._itens) -1]
 
     def get_tamanho(self):
         return len(self._itens)
