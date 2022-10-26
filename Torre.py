@@ -1,12 +1,15 @@
 class Torre:
     def __init__(self):
         self._itens  = []    
-
+        
     def esta_vazia(self):
         return self._itens == []
 
     def empilha(self, item):
         self._itens.append(item)
+        
+    def inserir(self, item):
+        self._itens.insert(0, item)
 
     def desempilha(self):
         return self._itens.pop(0)
