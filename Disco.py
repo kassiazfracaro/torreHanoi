@@ -4,8 +4,7 @@ class Disco:
 
     def get_tamanho(self):
         return self._tamanho
-
+    
     def to_string(self):
         print('Disco: ' + str(self._tamanho))
-        
-    
+

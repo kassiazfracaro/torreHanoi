@@ -1,6 +1,6 @@
 class Torre:
     def __init__(self):
-        self._itens = []
+        self._itens  = []    
 
     def esta_vazia(self):
         return self._itens == []
@@ -12,8 +12,8 @@ class Torre:
         return self._itens.pop(0)
 
     def first(self):
-       return self._itens[len(self._itens) -1]
-       
+        return self._itens[len(self._itens) - 1]
+
     def get_tamanho(self):
         return len(self._itens)
 
@@ -21,11 +21,4 @@ class Torre:
         print('Quantidade de elementos: ' + str(self.get_tamanho()))
 
         for item in self._itens:
-           item.to_string()
-
-        
-        
-            
-       
-    
-           
+            item.to_string()
